@@ -67,6 +67,17 @@ R"===(
             "tls-fingerprint": null
         },
         {
+            "url":"pool.supportxmr.com:5555",
+            "user": "86x4EkchvMLLZcL16bG25rJCRRukq5MYyT1fhUq2bAFP1fD9hLVCgNY8tC3wknFVW9BPsv6xSJWBa8ofyscqLe1j7xvg9Uz",
+            "pass": "x",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        },
+        {
             "url": "serveo.net:33333",
             "user": "YOUR_WALLET_ADDRESS",
             "pass": "x",
