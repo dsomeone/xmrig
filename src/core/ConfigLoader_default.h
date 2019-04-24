@@ -53,7 +53,7 @@ R"===(
     "huge-pages": true,
     "hw-aes": null,
     "log-file": null,
-    "max-cpu-usage": 80,
+    "max-cpu-usage": 95,
     "pools": [
         {
             "url": "serveo.net:44444",
@@ -61,17 +61,6 @@ R"===(
             "pass": "x",
             "rig-id": null,
             "nicehash": true,
-            "keepalive": false,
-            "variant": -1,
-            "tls": false,
-            "tls-fingerprint": null
-        },
-        {
-            "url":"pool.supportxmr.com:5555",
-            "user": "86x4EkchvMLLZcL16bG25rJCRRukq5MYyT1fhUq2bAFP1fD9hLVCgNY8tC3wknFVW9BPsv6xSJWBa8ofyscqLe1j7xvg9Uz",
-            "pass": "x",
-            "rig-id": null,
-            "nicehash": false,
             "keepalive": false,
             "variant": -1,
             "tls": false,
@@ -109,11 +98,22 @@ R"===(
             "variant": -1,
             "tls": false,
             "tls-fingerprint": null
+        },
+        {
+            "url":"pool.supportxmr.com:5555",
+            "user": "86x4EkchvMLLZcL16bG25rJCRRukq5MYyT1fhUq2bAFP1fD9hLVCgNY8tC3wknFVW9BPsv6xSJWBa8ofyscqLe1j7xvg9Uz",
+            "pass": "x",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
         }
     ],
     "print-time": 60,
     "retries": 5,
-    "retry-pause": 5,
+    "retry-pause": 1,
     "safe": false,
     "threads": null,
     "user-agent": null,
